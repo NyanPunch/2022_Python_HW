@@ -4,7 +4,7 @@ trainTuple = [("토마스",5), ("헨리",8), ("에드웓", 9), ("에밀리", 5),
 trainDic, trainList = {}, []
 tTuple = None
 topRank, tmpRank = 1, 1 
-#2019038054 김경
+#2019038054 김경민
 if __name__ == '__main__' :
     for tTuple in trainTuple :   
         tName = tTuple[0]       #이름
