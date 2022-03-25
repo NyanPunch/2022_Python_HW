@@ -20,7 +20,7 @@ if __name__ == '__main__' :
         Turtles.append([myTurtle, tX, tY, tSize, r, g, b, tAngle])
         #[거북이, X, Y, 크기, R, G, B, 각도]
     sortedTurtles = sorted(Turtles, key=lambda turtles : turtles[3])
-
+    #거북이 정렬 
     for index, tList in enumerate(sortedTurtles[0: ]) :
         myTurtle = tList[0] 
         myTurtle.color((tList[4], tList[5], tList[6]))
