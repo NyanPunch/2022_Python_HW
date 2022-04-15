@@ -1,4 +1,4 @@
-#좋아하는 동물 투표하기 2019038054 김경민
+#좋아하는 동물 투표하기
 from tkinter import *
 
 def myFunc() : #선택한 라디오 버튼으로 이미지를 바꾼다
@@ -17,7 +17,7 @@ if __name__ == '__main__' :
     window.geometry("400x400")
     window.title("애완동물 선택하기")
     labelText = Label(window, text = "좋아하는 동물 투표 ",fg = "blue", font = ("바탕체", 20))
-
+            #2019038054 김경민
     var = IntVar()  #라디오 버튼이 활성화 중인 이미지를 화면에 보일 수 있게 한다
     rb1 = Radiobutton(window, text = "강아지", variable = var, value = 1)
     rb2 = Radiobutton(window, text = "고양이", variable = var, value = 2)
