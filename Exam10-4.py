@@ -1,7 +1,7 @@
 #확대 축소 가능한 이미지
 from tkinter import *
 from tkinter.filedialog import *
-
+#2019038054 김경민
 def func_open() : #파일 오픈
     global filename #전역 변수 선언하여 확대 축소 함수 사용
     filename = askopenfilename(parent = window, filetypes = (("GIF 파일", "*.gif"), ("모든 파일", "*.*")))
